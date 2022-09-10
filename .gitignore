@@ -4,7 +4,7 @@
 *.o
 
 # MINGW730
-*.a 
+# *.a 
 
 *.la
 *.lai
@@ -12,7 +12,7 @@
 *.so.*
 
 # MINGW730
-*.dll
+# *.dll
 
 *.dylib
 
