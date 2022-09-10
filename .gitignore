@@ -2,12 +2,18 @@
 *.slo
 *.lo
 *.o
-*.a
+
+# MINGW730
+*.a 
+
 *.la
 *.lai
 *.so
 *.so.*
+
+# MINGW730
 *.dll
+
 *.dylib
 
 # Qt-es
