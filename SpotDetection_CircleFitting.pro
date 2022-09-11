@@ -29,8 +29,8 @@ TRANSLATIONS += \
     SpotDetection_CircleFitting_zh_CN.ts
 
 # Opencv库文件路径添加
-INCLUDEPATH += F:\Github\SpotDetection_CircleFitting\OpenCV-4.1.0-with-contrib-MinGW730-nonfree\include
-LIBS += F:\Github\SpotDetection_CircleFitting\OpenCV-4.1.0-with-contrib-MinGW730-nonfree\x64\mingw\lib\libopencv_*.a
+INCLUDEPATH += $$PWD/OpenCV-4.5.0-with-contrib-MinGW730-nonfree/include
+LIBS += $$PWD/OpenCV-4.5.0-with-contrib-MinGW730-nonfree/x64/mingw/lib/libopencv_*.dll.a
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
